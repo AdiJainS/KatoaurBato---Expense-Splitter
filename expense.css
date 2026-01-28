@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background: linear-gradient(rgb(18, 27, 45),rgb(143, 156, 176),rgb(60, 86, 137));
+ 
+    padding: 20px;
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 25px;     
+   
+}
+h1 {
+    text-align: center;
+    color:rgb(185, 121, 38);
+
+}
+#details {
+border: 2px solid rgb(9, 12, 40);
+background: linear-gradient(#bc6c37,#b1bdb4,#22bb4b);   
+margin: 5px; 
+padding: 10px;
+border-radius:10px ;
+box-shadow: 0px 0px 10px burlywood;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #a38627;
+}
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #4c0505;
+    border-radius: 4px;
+    background: linear-gradient(rgba(70, 6, 218, 0.507),rgb(137, 60, 60));
+    color: antiquewhite;
+}
+button {
+    padding: 8px 14px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#memberList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#memberList li {
+    background: linear-gradient(rgba(70, 6, 218, 0.507),rgb(137, 60, 60));
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    border: 1px solid blueviolet;
+}
+#manualsplit {
+   background: (#93bc84); 
+    margin-bottom: 10px;
+}
+
+
+#summary {
+    background-color: #ecf0f1;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+
+hr {
+    margin: 20px 10px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Splitter</title>
+    <link rel="stylesheet" href="expense.css">
+</head>
+<body>
+
+<h1>EXPENSE SPLITTER</h1>
+
+<label>Enter group member:</label>
+<input type="text" id="memberInput" placeholder="e.g. Mohit">
+
+<button type="button" id="but" onclick="addMember()">Add Member</button>
+
+
+<ul id="memberList"></ul>
+
+<hr>
+
+<h2>ADD EXPENSE</h2>
+<div id="details">
+<label for="description">Description:</label>
+<input type="text" id="description" placeholder="e.g. Lunch" name="descr"><br><br>
+<label for="payer">By:</label> 
+<input type="text" id="payer" placeholder="e.g. Rohit" name="pay"><br><br>
+<label for="amt">($):</label> 
+<input type="number" id="amt" placeholder="e.g. 5000" name ="cash"><br><br>
+
+<label for="split">Split Type:</label> 
+<select id="split">
+    <option value="equal">Equal</option>
+    <option value="manual">Manual</option>
+</select>
+
+
+<br><br>
+
+
+<div id="manualsplit">
+</div>
+<button onclick="addExpense()" id="calc">Calculate</button>
+
+<hr>
+
+<h2>SUMMARY</h2>
+<div id="summary"></div>
+
+<script src="expense.js"></script>
+</body>
+</html>
